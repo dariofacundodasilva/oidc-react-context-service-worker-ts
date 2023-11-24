@@ -1,0 +1,29 @@
+{
+  "name": "oidc-react-context-service-worker-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ServiceWorkerStore.js",
+  "types": "ServiceWorkerStore.d.ts",
+  "build": "tsc",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariofacundodasilva/oidc-react-context-service-worker-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariofacundodasilva/oidc-react-context-service-worker-ts/issues"
+  },
+  "homepage": "https://github.com/dariofacundodasilva/oidc-react-context-service-worker-ts#readme",
+  "dependencies": {
+    "oidc-client-ts": "2.2.5",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
