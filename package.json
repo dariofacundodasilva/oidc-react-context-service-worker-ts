@@ -5,17 +5,6 @@
   "main": "ServiceWorkerStore.js",
   "types": "ServiceWorkerStore.d.ts",
   "build": "tsc",
-  "exports": {
-    ".": {
-      "types": "./dist/ServiceWorkerStore.d.ts",
-      "import": "./dist/ServiceWorkerStore.js",
-      "require": "./dist/ServiceWorkerStore.js"
-    },
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
