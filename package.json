@@ -2,8 +2,8 @@
   "name": "oidc-react-context-service-worker-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "ServiceWorkerStore.js",
-  "types": "ServiceWorkerStore.d.ts",
+  "main": "dist/ServiceWorkerStore.js",
+  "types": "dist/ServiceWorkerStore.d.ts",
   "build": "tsc",
   "scripts": {
     "build": "tsc",
