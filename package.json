@@ -12,7 +12,7 @@
     "build": "tsc",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ./src/copy-service-worker-files.mjs ../../public"
+    "postinstallkk": "node ./src/copy-service-worker-files.mjs ../../public"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,7 @@
   "homepage": "https://github.com/dariofacundodasilva/oidc-react-context-service-worker-ts#readme",
   "dependencies": {
     "oidc-client-ts": "2.2.5",
-    "typescript": "^5.3.2",
-    "cpy": "^10.1.0",
-    "cpy-cli": "^5.0.0"
+    "typescript": "^5.3.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.0"
