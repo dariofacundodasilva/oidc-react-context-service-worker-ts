@@ -9,7 +9,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc && npm run copy",
+    "build": "tsc",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "cpy --flat ./src/ServiceWorker.js ../../public"
