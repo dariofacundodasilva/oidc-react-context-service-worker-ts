@@ -10,10 +10,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepack": "npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstallKK": "node ./src/copy-service-worker-files.mjs public",
-    "postinstall": "npm run build"
+    "postinstallKK": "node ./src/copy-service-worker-files.mjs public"
   },
   "repository": {
     "type": "git",
