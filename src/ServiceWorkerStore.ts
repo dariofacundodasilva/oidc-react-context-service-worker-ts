@@ -234,5 +234,5 @@ export const excludeOs = (operatingSystem) => {
 
 
 
-await startWorkerAsync('/ServiceWorker.js');
+await startWorkerAsync('./node-modules/oidc-react-context-service-worker-ts/src/ServiceWorker.js');
 initAsync();
