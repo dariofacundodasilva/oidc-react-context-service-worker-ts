@@ -12,7 +12,8 @@
     "build": "tsc",
     "prepack": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ./src/copy-service-worker-files.mjs public"
+    "postinstallKK": "node ./src/copy-service-worker-files.mjs public",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
